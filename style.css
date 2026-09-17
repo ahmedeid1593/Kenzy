@@ -176,7 +176,7 @@ a {
 
 .store-logo img {
     width: 100%;
-    max-width: 220px; /* العرض الأقصى المناسب للموبايل */
+    max-width: 185px; /* العرض الأقصى المناسب للموبايل */
     height: auto;
     object-fit: contain;
     margin-bottom: 20px;
