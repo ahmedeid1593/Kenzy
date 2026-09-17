@@ -174,12 +174,20 @@ a {
     text-align: center;
 }
 
-.store-logo img {
+.store-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    max-width: 185px; /* العرض الأقصى المناسب للموبايل */
+    margin-bottom: 20px;
+}
+
+.store-logo img {
+    width: 80%;
+    max-width: 250px;
     height: auto;
     object-fit: contain;
-    margin-bottom: 20px;
+    display: block;
 }
 
 .small-title {
