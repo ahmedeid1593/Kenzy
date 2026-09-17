@@ -175,10 +175,11 @@ a {
 }
 
 .store-logo img {
-    width: 550px;
+    width: 100%;
+    max-width: 220px; /* العرض الأقصى المناسب للموبايل */
     height: auto;
     object-fit: contain;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .small-title {
